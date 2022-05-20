@@ -1,0 +1,17 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "Runs a mock server for local development",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Pankaj Sati",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cookie-parser": "^1.4.6",
+    "json-server": "^0.17.0"
+  }
+}
